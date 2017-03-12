@@ -1,0 +1,32 @@
+{
+  "name": "worker",
+  "version": "0.0.1",
+  "description": "Dead simple time tracking tool",
+  "main": "worker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Raedslab/worker.git"
+  },
+  "keywords": [
+    "time",
+    "tracking",
+    "work"
+  ],
+  "author": "Raed Chammam <raed.chammam@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/Raedslab/worker/issues"
+  },
+  "homepage": "https://github.com/Raedslab/worker",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "cli-table": "^0.3.1",
+    "commander": "^2.9.0",
+    "figlet": "^1.2.0",
+    "home-or-tmp": "^3.0.0",
+    "ya-csv": "^0.10.1"
+  }
+}
